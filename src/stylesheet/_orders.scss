@@ -1,0 +1,44 @@
+.order {
+  padding: 1rem;
+  form select {
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    border: 1px solid rgb(191, 191, 191);
+  }
+  form input {
+    border-radius: 5px;
+    border: 1px solid rgb(191, 191, 191);
+    padding: 0.4rem 0.7rem;
+  }
+  .export {
+    margin-bottom: 1rem;
+    p {
+      margin-left: 12rem;
+    }
+  }
+  button {
+    padding: 0.6rem 0.9rem;
+    border-radius: 5px;
+    border: 2px solid rgb(60, 131, 190);
+    background-color: white;
+    color: rgb(60, 131, 190);
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .order-nav li {
+    width: 10%;
+    background-color: rgb(196, 196, 196);
+    padding: 0.5rem 0.5rem;
+  }
+  ul {
+    border-bottom: 1px solid rgb(191, 191, 191);
+  }
+  ul li {
+    padding: 0.5rem 0.5rem;
+    width: 10%;
+    height: 40px;
+  }
+  .order-id {
+    color: rgb(15, 136, 224);
+  }
+}

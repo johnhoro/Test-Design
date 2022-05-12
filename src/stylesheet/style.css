@@ -1,0 +1,684 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-12 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 12%;
+          flex: 0 1 12%;
+}
+
+.flex-20 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+}
+
+.flex-22 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 22%;
+          flex: 0 1 22%;
+}
+
+.flex-48 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48%;
+          flex: 0 1 48%;
+}
+
+.flex-40 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+
+.flex-30 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+}
+
+.flex-29 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 29%;
+          flex: 0 1 29%;
+}
+
+.flex-15 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 15%;
+          flex: 0 1 15%;
+}
+
+.flex-60 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
+}
+
+.flex-70 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 70%;
+          flex: 0 1 70%;
+}
+
+.flex-80 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 80%;
+          flex: 0 1 80%;
+}
+
+.justify-bw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.align-stretch {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+.align-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.margin-l {
+  margin-left: 1rem;
+}
+
+.margin-b {
+  margin-bottom: 1rem;
+}
+
+.margin-r {
+  margin-right: 1rem;
+}
+
+.w-150p {
+  width: 150px;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.pie-box canvas {
+  width: 400px !important;
+  height: 400px !important;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.bar-box canvas {
+  width: 1463px !important;
+  height: 442px !important;
+}
+
+header {
+  background-color: #000344;
+  color: white;
+}
+
+header img {
+  width: 90px;
+  height: 60px;
+}
+
+header ul li {
+  font-weight: 300;
+  padding: 1.3rem 2.4rem;
+  cursor: pointer;
+}
+
+header .active {
+  background-color: #5d3dc2;
+}
+
+header .profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: black;
+  background-color: #c4c4c4;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+
+.dashboard {
+  border: 1px solid #bfbfbf;
+  padding: 1.2rem 1rem;
+  margin-bottom: 1rem;
+  height: 123px;
+}
+
+.dashboard h1 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.dashboard p {
+  color: #1c1c1c;
+  font-size: 0.8rem;
+}
+
+.dashboard .order h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.dashboard .order p {
+  font-weight: 700;
+}
+
+.filter {
+  padding: 1.5rem 1rem;
+}
+
+.filter .date-box {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filter .date-box p {
+  position: absolute;
+  top: 155px;
+  right: 305px;
+  cursor: pointer;
+}
+
+.filter input {
+  margin-right: 1rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.filter select {
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.pie-box {
+  padding: 1rem;
+  border: 1px solid #bfbfbf;
+  width: 474px !important;
+  height: 474px !important;
+  margin-bottom: 1rem;
+}
+
+.pie-box .amount i {
+  color: #666666;
+  margin: 0 0.3rem;
+}
+
+.pie-box .amount i p {
+  color: #666666;
+}
+
+.bar-box {
+  border: 1px solid #bfbfbf;
+  width: 1463px !important;
+  height: 442px !important;
+  margin-bottom: 1rem;
+}
+
+.order {
+  padding: 1rem;
+}
+
+.order form select {
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.order form input {
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  padding: 0.4rem 0.7rem;
+}
+
+.order .export {
+  margin-bottom: 1rem;
+}
+
+.order .export p {
+  margin-left: 12rem;
+}
+
+.order button {
+  padding: 0.6rem 0.9rem;
+  border-radius: 5px;
+  border: 2px solid #3c83be;
+  background-color: white;
+  color: #3c83be;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.order .order-nav li {
+  width: 10%;
+  background-color: #c4c4c4;
+  padding: 0.5rem 0.5rem;
+}
+
+.order ul {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.order ul li {
+  padding: 0.5rem 0.5rem;
+  width: 10%;
+  height: 40px;
+}
+
+.order .order-id {
+  color: #0f88e0;
+}
+
+.config {
+  padding: 1rem;
+}
+
+.config form select {
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.config form input {
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  padding: 0.4rem 0.7rem;
+}
+
+.config .upload-file p {
+  margin-left: 12rem;
+}
+
+.config button {
+  padding: 0.6rem 0.9rem;
+  border-radius: 5px;
+  border: 2px solid #3c83be;
+  background-color: white;
+  color: #3c83be;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.config .config-nav {
+  background-color: #c4c4c4;
+  margin-top: 1rem;
+}
+
+.config .config-nav li {
+  padding: 0.5rem;
+}
+
+.config ul {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.config ul li {
+  padding: 0.5rem;
+}
+
+.config .right-mark {
+  width: 20px;
+  height: 20px;
+}
+
+.config .wrong-mark {
+  width: 20px;
+  height: 20px;
+}
+
+.upload-section {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.upload {
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.upload .upload-box {
+  height: 330px;
+  padding: 1rem;
+  border-bottom: 1px solid #bfbfbf;
+  margin-bottom: 1rem;
+}
+
+.upload h2 {
+  font-size: 1.3rem;
+}
+
+.upload p {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.upload form {
+  margin: 0.4rem 0;
+}
+
+.upload form select {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+}
+
+.upload form input {
+  padding: 0.4rem 0.7rem;
+  width: 65%;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.upload .browse-btn {
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  border: 2px solid #3c83be;
+  background-color: white;
+  color: #3c83be;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.upload .add-row {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+.order {
+  padding: 1rem;
+}
+
+.order form select {
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.order form input {
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  padding: 0.4rem 0.7rem;
+}
+
+.order .export {
+  margin-bottom: 1rem;
+}
+
+.order .export p {
+  margin-left: 12rem;
+}
+
+.order button {
+  padding: 0.6rem 0.9rem;
+  border-radius: 5px;
+  border: 2px solid #3c83be;
+  background-color: white;
+  color: #3c83be;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.order .order-nav li {
+  width: 10%;
+  background-color: #c4c4c4;
+  padding: 0.5rem 0.5rem;
+}
+
+.order ul {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.order ul li {
+  padding: 0.5rem 0.5rem;
+  width: 10%;
+  height: 40px;
+}
+
+.order .order-id {
+  color: #0f88e0;
+}
+/*# sourceMappingURL=style.css.map */

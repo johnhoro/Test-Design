@@ -1,0 +1,116 @@
+.config {
+  padding: 1rem;
+
+  form select {
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    border: 1px solid rgb(191, 191, 191);
+  }
+  form input {
+    border-radius: 5px;
+    border: 1px solid rgb(191, 191, 191);
+    padding: 0.4rem 0.7rem;
+  }
+  .upload-file p {
+    margin-left: 12rem;
+  }
+  button {
+    padding: 0.6rem 0.9rem;
+    border-radius: 5px;
+    border: 2px solid rgb(60, 131, 190);
+    background-color: white;
+    color: rgb(60, 131, 190);
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .config-nav {
+    background-color: rgb(196, 196, 196);
+    margin-top: 1rem;
+  }
+  .config-nav li {
+    padding: 0.5rem;
+  }
+  ul {
+    border-bottom: 1px solid rgb(191, 191, 191);
+  }
+  ul li {
+    padding: 0.5rem;
+  }
+  .right-mark {
+    width: 20px;
+    height: 20px;
+  }
+  .wrong-mark {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.upload-section {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.upload {
+  border: 1px solid rgb(191, 191, 191);
+  background-color: white;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 400px;
+  .upload-box {
+    height: 330px;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(191, 191, 191);
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  form {
+    margin: 0.4rem 0;
+  }
+  form select {
+    padding: 0.4rem 0.7rem;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 5px;
+  }
+  form input {
+    padding: 0.4rem 0.7rem;
+    width: 65%;
+    border-radius: 5px;
+    border: 1px solid rgb(191, 191, 191);
+  }
+  .browse-btn {
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    border: 2px solid rgb(60, 131, 190);
+    background-color: white;
+    color: rgb(60, 131, 190);
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .add-row {
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+}
+
+.d-none {
+  display: none;
+}

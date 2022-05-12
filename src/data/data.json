@@ -1,0 +1,317 @@
+[
+  [
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    }
+  ],
+
+  [
+    {
+      "allOrders": "12,68,340",
+      "paidByUser": "5,84,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "1,58,69,473.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "81,75,140",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "73,68,910",
+      "paidByUser": "2,53,32,110.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    }
+  ],
+  [
+    {
+      "allOrders": "83,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    }
+  ],
+  [
+    {
+      "allOrders": "2,28,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    }
+  ],
+
+  [
+    {
+      "allOrders": "1,23,978",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "6,516",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    },
+    {
+      "allOrders": "2,68,910",
+      "paidByUser": "7,83,00,241.00",
+      "commission": "2,68,910",
+      "govtTax": "7,83,00,241.00",
+      "netPayable": "2,68,910"
+    }
+  ],
+  {
+    "orders": [
+      {
+        "id": "xxxxxxxxxxxxxxxx",
+        "orderStatus": "Delivered",
+        "date": "26 Dec 2021",
+        "channel": "Swiggy",
+        "payable": "428.79",
+        "commission": "20.00",
+        "charges": "89.62",
+        "taxes": "20.32",
+        "netReceivable": "298.75",
+        "status": "Reconcile"
+      },
+      {
+        "id": "xxxxxxxxxxxxxxxx",
+        "orderStatus": "Delivered",
+        "date": "26 Dec 2021",
+        "channel": "Swiggy",
+        "payable": "428.79",
+        "commission": "20.00",
+        "charges": "89.62",
+        "taxes": "20.32",
+        "netReceivable": "298.75",
+        "status": "Reconcile"
+      },
+      {
+        "id": "xxxxxxxxxxxxxxxx",
+        "orderStatus": "Delivered",
+        "date": "26 Dec 2021",
+        "channel": "Swiggy",
+        "payable": "428.79",
+        "commission": "20.00",
+        "charges": "89.62",
+        "taxes": "20.32",
+        "netReceivable": "298.75",
+        "status": "Reconcile"
+      },
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      },
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      },
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      },
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      },
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      },
+
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      },
+
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      },
+      {
+        "id": "",
+        "orderStatus": "",
+        "date": "",
+        "channel": "",
+        "payable": "",
+        "commission": "",
+        "charges": "",
+        "taxes": "",
+        "netReceivable": "",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "configuration": [
+      {
+        "channel": "Swiggy",
+        "fileName": "1 Feb 2022-28 Feb 2022.pdf",
+        "uploadDate": "26 Dec 2021",
+        "status": "Reconcile",
+        "image": "https://i.pinimg.com/originals/7b/dd/1b/7bdd1bc7db7fd48025d4e39a0e2f0fd8.jpg"
+      },
+      {
+        "channel": "Swiggy",
+        "fileName": "1 Feb 2022-28 Feb 2022.pdf",
+        "uploadDate": "26 Dec 2021",
+        "status": "Reconcile",
+        "image": "https://i.pinimg.com/originals/7b/dd/1b/7bdd1bc7db7fd48025d4e39a0e2f0fd8.jpg"
+      },
+      {
+        "channel": "Swiggy",
+        "fileName": "1 Feb 2022-28 Feb 2022.pdf",
+        "uploadDate": "26 Dec 2021",
+        "status": "Reconcile",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVicQF1uZBZWXLVkXze-VzccneNQN6zZO4IA&usqp=CAU"
+      }
+    ]
+  }
+]
