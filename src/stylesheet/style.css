@@ -424,12 +424,12 @@ header .profile {
   margin-bottom: 1rem;
 }
 
-.pie-box .amount i {
+.pie-box i {
   color: #666666;
-  margin: 0 0.3rem;
+  margin: 0 0.5rem;
 }
 
-.pie-box .amount i p {
+.pie-box i p {
   color: #666666;
 }
 
