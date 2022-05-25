@@ -12,9 +12,6 @@ function Configuration() {
   let [filename, setName] = useState("");
   let fileRef = useRef();
 
-  let date = format(new Date(), `d MMM yyyy`);
-  console.log(data);
-
   function handleUpload() {
     setUpload(!upload);
   }
@@ -22,6 +19,7 @@ function Configuration() {
   const fileHandler = () => {
     if (fileRef.current && fileRef.current.files.length > 0) {
       const file = fileRef.current.files[0];
+      // console.log(fileRef.current.files);
       setName(file.name);
     }
   };
@@ -34,7 +32,6 @@ function Configuration() {
 
       fr.onload = (e) => {
         const result = JSON.parse(JSON.stringify(e.target.result));
-
         setData(JSON.parse(result));
       };
 

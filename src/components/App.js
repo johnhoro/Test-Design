@@ -5,12 +5,14 @@ import Header from "./common/Header";
 import Configuration from "./configuration/Configuration";
 import NewFile from "./configuration/NewFile";
 import Dashboard from "./dashboard/Dashboard";
+import Login from "./login";
 import Orders from "./orders/Orders";
 
 function App() {
   return (
     <>
-      <Header />
+      <Login />
+      {/* <Header />
       <Filter />
       <Switch>
         <Route path="/" exact>
@@ -22,7 +24,7 @@ function App() {
         <Route path="/configuration">
           <Configuration />
         </Route>
-      </Switch>
+      </Switch> */}
     </>
   );
 }

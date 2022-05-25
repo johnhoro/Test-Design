@@ -16,7 +16,7 @@ function Filter(props) {
       key: "selection",
     },
   ]);
-  console.log(props);
+  console.log(state);
 
   function handleDate() {
     setIsShowDate(!isShowDate);
@@ -82,7 +82,7 @@ function Filter(props) {
               setChannel(e.target.value);
             }}
             className="w-150p"
-            name="cars"
+            name=""
           >
             <option value="All">All</option>
             <option value="Amazon">Reconciled</option>
