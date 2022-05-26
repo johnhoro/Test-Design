@@ -260,7 +260,6 @@ table {
 body {
   margin: 0;
   padding: 0;
-  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
 }
 
 *,
@@ -354,7 +353,14 @@ header img {
 header ul li {
   font-weight: 300;
   padding: 1.3rem 2.4rem;
+  height: 74px;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .active {
@@ -387,6 +393,7 @@ header .profile {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
 }
 
 .h-36 {
@@ -467,6 +474,7 @@ header .profile {
 }
 
 .login form input {
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
   padding: 0.6rem;
   padding-left: 3rem;
   margin-bottom: 1.5rem;
@@ -512,6 +520,7 @@ header .profile {
 }
 
 .login button {
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

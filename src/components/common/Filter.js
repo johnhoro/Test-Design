@@ -42,8 +42,7 @@ function Filter(props) {
     <div className="filter flex align-center">
       {isShowDate ? (
         <div onClick={handleDate} className="flex align-center">
-          <p>Date-Range: </p>
-          <input type="date" />
+          <p>Date Range: </p> <input type="date" />
         </div>
       ) : (
         <div className="date-box">

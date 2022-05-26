@@ -1,11 +1,12 @@
 import React from "react";
-import { Form, Button } from "semantic-ui-react";
+import { Form, Button, PlaceholderHeader } from "semantic-ui-react";
 
 function Login() {
   const onHandleLogin = (event) => {
     event.preventDefault();
     const email = event.target.email.value;
     const password = event.target.password.value;
+    alert(`${email} ${password}`);
   };
   return (
     <>
@@ -16,7 +17,10 @@ function Login() {
             <h1>Kosh.ai</h1>
           </div>
           <h2>Log in to your Account</h2>
-          <form className="flex flex-column">
+          <form
+            onSubmit={(event) => onHandleLogin(event)}
+            className="flex flex-column"
+          >
             <div className="control-form">
               <input type="email" name="email" placeholder="Email Address" />
               <img src="/email.png" alt="email" width="15.83" height="12.5" />
